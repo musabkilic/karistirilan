@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta content="utf-8" http-equiv="encoding">
+        <link rel="stylesheet" href="./main.css">
+        <title>Yazımı Karıştırılan Kelimeler</title>
+    </head>
+    <body>
+        <div>
+        	<center id="start">
+        		<h1 style="font-size: 33px" id="start_text">
+        		</h1>
+        		<button class="custom_button" style="width:320px;height:160px;font-size:40px" id="start_button">
+        			Başlat
+        		</button>
+        	</center>
+
+        	<div style="display:none;" id="questions">
+        		<center>
+        			<span id="question_id">Soru 1-50</span>
+        			<h1 style="font-size:33px">Hangisi Doğru?</h1>
+        			<button class="custom_button not_selected" id = "a"></button>
+        			<button class="custom_button not_selected" id = "b"></button>
+        			<br/>
+        			<br/>
+        			<button class="custom_button" style="background-color: green;display: none;" id="continue_true">Doğru</button>
+        			<button class="custom_button"
+        			style="background-color: red;display: none;" id="continue_false">Yanlış</button>
+        			<button class="custom_button" style="" id="continue">Pas</button>
+        		</center>
+        		<br/>
+        	</div>
+        	<center style="display:none;" id="show_results">
+        		<h1 style="font-size: 33px" id="result_text">
+        		</h1>
+        		<button class="custom_button" style="width:320px;height:160px;font-size:40px" id="start_again">
+        			Yeniden Dene
+        		</button>
+        		</br>
+        		</br>
+        	</center>
+        	<div id="false_prog" style="display: none;">
+        		<div id="true_prog">
+        			0%
+        		</div>
+        	</div>
+        	</br>
+        	<center>
+            <span style="color:#777">Kaynak olarak <a href=http://www.tdk.gov.tr/ target="_blank">http://www.tdk.gov.tr/</a> kullanılmıştır.</span></br>
+            <span style="color:#777">Musab Kılıç</span></br>
+            <span style="color:#777">@musabkilic & @musabkilic0</span>
+          </center>
+
+        </div>
+        <script type="text/javascript" src="words.js"></script>
+        <script type="text/javascript" src="main.js"></script>
+    </body>
+</html>
