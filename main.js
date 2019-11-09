@@ -111,10 +111,10 @@ function shuffle(a) {
     let l = new Array(a.length);
     for(let i=0; i<a.length; i++){
       n = Math.floor(Math.random()*(a.length-i));
-      l[i] = n;
+      l[i] = a[n];
       a = a.slice(0, n).concat(a.slice(n+1, a.length));
     }
-    a=l;
+    return l;
 }
 function end(){
     document.getElementById("questions").style.display = "none";
@@ -138,7 +138,7 @@ function start(){
     document.getElementById("false_prog").style.display = "";
     start_time = (new Date()).getTime()/1000;
     questions = range(Object.keys(words).length);
-    shuffle(questions);
+    questions = shuffle(questions);
     questions = questions.slice(0,50);
     question_index = 0;
     true_answers = 0;
