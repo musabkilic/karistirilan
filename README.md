@@ -8,4 +8,4 @@
   <img src="https://api.netlify.com/api/v1/badges/005d6c6b-f124-451e-8582-b0887c4dc72e/deploy-status"> 
 </p>
 
-https://yazim.netlify.com/
+https://yazim.musab.me/
