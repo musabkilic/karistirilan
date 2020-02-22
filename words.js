@@ -157,7 +157,7 @@ words = {
 	"karemel":"karamel",
 	"karnıbahar":"karnabahar",
 	"kavonoz":"kavanoz",
-	
+
 	"kilot":"külot",
 	"kipri":"kirpi",
 	"kiprik":"kirpik",
@@ -219,7 +219,6 @@ words = {
 	"ötenazi":"ötanazi",
 	"palyanço":"palyaço",
 	"panaroma":"panorama",
-	"panik oldum":"panik olmak",
 	"pantalon":"pantolon",
 	"parağraf":"paragraf",
 	"pardesü":"pardösü",
