@@ -315,5 +315,6 @@ words = {
 	"vejeteryan":"vejetaryen",
 	"yanlız":"yalnız",
 	"yayınlamak":"yayımlamak",
-	"Yunanlı":"Yunan"
+	"Yunanlı":"Yunan",
+	"Filasyon":"Filyasyon"
 }
