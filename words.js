@@ -164,7 +164,7 @@ words = {
 	"kirbit":"kibrit",
 	"kitlemek":"kilitlemek",
 	"klavuz":"kılavuz",
-	"kokreç":"kokoreç",
+	"kokariç":"kokoreç",
 	"kolanya":"kolonya",
 	"kollej":"kolej",
 	"kolleksiyon":"koleksiyon",
